@@ -1,0 +1,94 @@
+Response status code: 301
+Response Headers:
+    Connection : close
+    Content-Length : 162
+    Server : GitHub.com
+    Content-Type : text/html
+    permissions-policy : interest-cohort=()
+    Location : https://chshin-ai.github.io/ota/firmware.bin
+    X-GitHub-Request-Id : CA70:344D38:9D3C34:A1BDF7:67372CE6
+    Accept-Ranges : bytes
+    Age : 1244
+    Date : Fri, 15 Nov 2024 11:34:26 GMT
+    Via : 1.1 varnish
+    X-Served-By : cache-tyo11942-TYO
+    X-Cache : HIT
+    X-Cache-Hits : 0
+    X-Timer : S1731670467.911648,VS0,VE1
+    Vary : Accept-Encoding
+    X-Fastly-Request-ID : 5c4b299e1a9861cf2f3a5444e057b6d0f93e168c
+Content length is: 162
+Response:
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x109c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xb50
+load:0x403cc700,len:0x2fe4
+entry 0x403c98ac
+ModemPowerup...
+powerpin : 1
+sleeppin : 0
+Auto Baud...
+Initializing modem...
+Modem Info: R1951.07
+Waiting for network... success
+Network connected
+Connecting to iot.1nce.net success
+GPRS connected
+Performing HTTPS GET request... Response status code: 200
+Response Headers:
+    Connection : keep-alive
+    Content-Length : 301728
+    Server : GitHub.com
+    Content-Type : application/octet-stream
+    permissions-policy : interest-cohort=()
+    Last-Modified : Fri, 15 Nov 2024 09:59:38 GMT
+    Access-Control-Allow-Origin : *
+    Strict-Transport-Security : max-age=31556952
+    ETag : "67371b8a-49aa0"
+    expires : Fri, 15 Nov 2024 14:29:49 GMT
+    Cache-Control : max-age=600
+    x-proxy-cache : MISS
+    X-GitHub-Request-Id : 9236:34C95A:AB4300:B0181D:67375885
+    Accept-Ranges : bytes
+    Age : 335
+    Date : Fri, 15 Nov 2024 16:08:59 GMT
+    Via : 1.1 varnish
+    X-Served-By : cache-tyo11935-TYO
+    X-Cache : HIT
+    X-Cache-Hits : 0
+    X-Timer : S1731686939.178526,VS0,VE1
+    Vary : Accept-Encoding
+    X-Fastly-Request-ID : ffcb63aedd6a411a0607d7b5315aef37687f6edc
+Content length is: 301728
+Firmware Downloading...
+length 301728, 301728
+Update Complete...
+��ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037978e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x109c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xb50
+load:0x403cc700,len:0x2fe4
+entry 0x403c98ac
+ESP32 Chip model = ESP32-S3 Rev 2
+This chip has 2 cores
+Chip ID: 2106448
+ESP32 Chip model = ESP32-S3 Rev 2
+This chip has 2 cores
+Chip ID: 2106448
