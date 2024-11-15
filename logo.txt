@@ -92,3 +92,17 @@ Chip ID: 2106448
 ESP32 Chip model = ESP32-S3 Rev 2
 This chip has 2 cores
 Chip ID: 2106448
+
+
+
+라이브러리 NetworkClientSecure를 버전 3.0.5 폴더: C:\Users\chshin\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.0.5\libraries\NetworkClientSecure  에서 사용
+라이브러리 Networking를 버전 3.0.5 폴더: C:\Users\chshin\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.0.5\libraries\Network  에서 사용
+라이브러리 WiFi를 버전 3.0.5 폴더: C:\Users\chshin\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.0.5\libraries\WiFi  에서 사용
+라이브러리 ArduinoJson를 버전 7.2.1 폴더: C:\Users\chshin\Documents\Arduino\libraries\ArduinoJson  에서 사용
+라이브러리 PubSubClient를 버전 2.8 폴더: C:\Users\chshin\Documents\Arduino\libraries\PubSubClient  에서 사용
+라이브러리 CRC32를 버전 2.0.0 폴더: C:\Users\chshin\Documents\Arduino\libraries\CRC32  에서 사용
+라이브러리 TinyGSM를 버전 0.12.0 폴더: C:\Users\chshin\Documents\Arduino\libraries\TinyGSM  에서 사용
+라이브러리 ArduinoHttpClient를 버전 0.6.1 폴더: C:\Users\chshin\Documents\Arduino\libraries\ArduinoHttpClient  에서 사용
+라이브러리 Update를 버전 3.0.5 폴더: C:\Users\chshin\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.0.5\libraries\Update  에서 사용
+라이브러리 Adafruit NeoPixel를 버전 1.12.3 폴더: C:\Users\chshin\Documents\Arduino\libraries\Adafruit_NeoPixel  에서 사용
+
