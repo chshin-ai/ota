@@ -106,3 +106,99 @@ Chip ID: 2106448
 라이브러리 Update를 버전 3.0.5 폴더: C:\Users\chshin\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.0.5\libraries\Update  에서 사용
 라이브러리 Adafruit NeoPixel를 버전 1.12.3 폴더: C:\Users\chshin\Documents\Arduino\libraries\Adafruit_NeoPixel  에서 사용
 
+
+
+
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x109c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xb50
+load:0x403cc700,len:0x2fe4
+entry 0x403c98ac
+Core(1) :
+............................................................................
+Connecting to Modem
+ModemPowerup...
+powerpin : 1
+sleeppin : 0
+Auto Baud...
+Initializing modem...
+Modem Info: R1951.07
+............................................................................
+Network Select :: getNetworkMode:2  getPreferredMode:1
+Waiting for network...Network connected
+Waiting for network registration...
+
+Network register info: Registered, roaming.
+............................................................................
+Configure APN & Connect gprs...
+Connecting to iot.1nce.netGPRS connected
+Modem information
+Modem FW Version: Revision:1951B17SIM7080
+CCID:89882280666147516375
+IMEI:860016047358762
+IMSI:901405114751637
+Operator:SKTelecom
+Local IP:10.129.125.1
+Signal quality:31
+............................................................................
+Ping the Google DNS server
+
++SNPING4: 1,8.8.8.8,389
++SNPING4: 2,8.8.8.8,433
+
+OK
+
++CCLK: "24/11/16,14:19:40+36"
+NTP time updated successfully
++CCLK: "24/11/16,05:19:42+00"
+GPRS connected
+
+............................................................................
+Performing HTTPS GET request... Response status code: 200
+Response Headers:
+    Connection : keep-alive
+    Content-Length : 278400
+    Server : GitHub.com
+    Content-Type : application/octet-stream
+    permissions-policy : interest-cohort=()
+    Last-Modified : Sat, 16 Nov 2024 04:18:56 GMT
+    Access-Control-Allow-Origin : *
+    Strict-Transport-Security : max-age=31556952
+    ETag : "67381d30-43f80"
+    expires : Sat, 16 Nov 2024 04:52:10 GMT
+    Cache-Control : max-age=600
+    x-proxy-cache : MISS
+    X-GitHub-Request-Id : 67A1:2284E7:F237C8:F8644D:673822A1
+    Accept-Ranges : bytes
+    Age : 0
+    Date : Sat, 16 Nov 2024 05:19:46 GMT
+    Via : 1.1 varnish
+    X-Served-By : cache-nrt-rjtf7700107-NRT
+    X-Cache : HIT
+    X-Cache-Hits : 0
+    X-Timer : S1731734386.095343,VS0,VE219
+    Vary : Accept-Encoding
+    X-Fastly-Request-ID : c45f24b51f68d4ea1dc5a0573e361e04e9d9b4ab
+Content length is: 278400
+Firmware Downloading...
+length 278400, 278400
+Update Complete...
+x�ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037b38e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x109c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xb50
+load:0x403cc700,len:0x2fe4
+entry 0x403c98ac
+Hellow World
+
+
